@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    gap: 15px;
+    color: white;
+    font-size: 2rem;
+    font-weight: 300;
+    align-self: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 600px;
+    height: 700px;
+    padding: 30px;
+    justify-content: center;
+    align-self: center;
+}
+
+input {
+    height: 60px;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+input::placeholder {
+    color: #A8A8A8;
+}
+
+.mensagem {
+    height: 150px;
+}
+
+
+mensagem::placeholder {
+    margin-bottom: 20px;
+}
+
+.botao-enviar {
+    width: 540px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3CCC87;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+
+
+}
+
+.campos-obrigatorios {
+    color: red;
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
+
+.campos-obrigatorios {
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.borda-vermelha {
+    border: 2px solid red;
+}
+
+.borda-verde {
+    border: 2px solid #00C22B;
+}
+
+.campo-obrigatorio {
+    margin-bottom: 15px;
+    color: red;
+}
